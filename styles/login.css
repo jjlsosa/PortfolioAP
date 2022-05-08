@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondoLogin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container_Form{
+    background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0, 20px;
+}
+
+#button{
+    font-size:15px;
+    font-weight:bold;
+    color: white;
+    background-color: black;
+    border-radius:8px;    
+    align-content: center; 
+    margin-top: 30px;
+    width: 150px;
+    margin-left: 75px;
+    border: white 2px solid;
+}
+
+#check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+label{
+    color:white ;
+}
+
+a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff7967;
+}
+
+#button:hover{
+    background-color: #ff7967;  
+}
+
+#button:active{
+    background-color: #ff7967;
+    width: 145px;
+}

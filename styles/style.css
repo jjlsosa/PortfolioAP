@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    margin-right: 10px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+.container{
+    margin-top: 10px;
+}
+
+.bloques{
+   
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 2px;
+}
+
+#fotoPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -150px; 
+}
+
+#hover :hover{
+    background-color: #00AA9E;
+    color: antiquewhite;
+    transition-duration: 1s;
+}
+
+#bannerPerfil{
+    display: flex;
+    z-index: 1;
+}
+
+#bannerPerfil img{
+    width: 100%;
+    border-radius: 0px 0px 20px 20px ;
+    
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+    align-content: center;
+}
+
+.button{
+    font-size:15px;
+    font-weight:bold;
+    color: antiquewhite;
+    background-image:linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:8px;    
+    align-content: center;
+}
+
+p, h3{
+    text-align: center;
+    pointer-events: none;
+}
+
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 5px;
+    }
+    #fotoPerfil{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -40px; 
+    }
+}
+
+#skills{
+    text-align: left;
+}
+
+#editar{
+    width: 30px;
+    margin-left: 950px;
+    margin-top: -10px;
+    display: flex;
+    border-radius: 50%;
+}
+
+#editarHeader{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: -30px;
+    display: flex;
+    border-radius: 50%;
+}
+
+.col p{
+    text-align: left;
+    margin-top: 10px;
+    padding-top: -10px;
+}
+
+.col h6{
+    margin-top: 20px;
+}
+
+.col a{
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+
+.link{
+    margin-top: 50px;
+    
+}
+
+.personalizado{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(18, 110, 110);
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 2px solid black;
+    align-content: center;
+}  
+
+.personalizado:hover{
+    background-color: rgb(212, 45, 170);
+    color: antiquewhite;
+    transition-duration: 0.5s;
+}
